@@ -1,0 +1,46 @@
+.simple-layout-main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    background: red;
+}
+
+.simple-layout-header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    background: blue;
+}
+
+.simple-layout-content-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+    background: green;
+}
+
+.simple-layout-sidenav-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+    background: yellow;
+}
+
+.simple-layout-router-container {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+    background: violet;
+}

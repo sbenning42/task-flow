@@ -1,0 +1,29 @@
+<!-- main -->
+<div class="simple-layout-main-container">
+  
+  <!-- header -->
+  <div class="simple-layout-header-container" (click)="toggleSidenav()">
+    <app-header></app-header>
+  </div>
+  <!-- /header -->
+  
+  <!-- content -->
+  <div class="simple-layout-content-container">
+    
+    <!-- sidenav -->
+    <div class="simple-layout-sidenav-container" *ngIf="sidenavIsOpen$ | async">
+      <app-sidenav></app-sidenav>
+    </div>
+    <!-- /sidenav -->
+    
+    <!-- router -->
+    <div class="simple-layout-router-container">
+      <app-router></app-router>
+    </div>
+    <!-- /router -->
+  
+  </div>
+  <!-- /content -->
+
+</div>
+<!-- /main -->
